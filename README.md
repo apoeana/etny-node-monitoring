@@ -1,4 +1,4 @@
-# etny-node-monitoring
+# etny-node-monitoring for sending notification to a Telegram Bot
 
 1.	Begin by cloning the repository.
 
@@ -7,9 +7,6 @@
 3.	Follow the instructions provided by the installer. This includes:
 
 3.1	Please enter your Telegram Bot Token:
-
- 
-
 3.2	Please enter the number of nodes you want to monitor:
 3.3	Please enter the name for node 1:
 3.4	Please enter the address for node 1:
