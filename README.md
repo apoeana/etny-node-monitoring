@@ -36,7 +36,7 @@
 
             3.7	Wait until Etny Node Monitoring setup complete!
 
-If you encounter issues with the Etny Node Monitoring setup, you can try the following troubleshooting steps:
+Note: If you encounter issues with the Etny Node Monitoring setup, you can try the following troubleshooting steps:
 
             Check if the information in the configuration file is correct by running the command:
             
