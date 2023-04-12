@@ -8,19 +8,19 @@
 
 3.	Follow the instructions provided by the installer. This includes:
 
-3.1	Please enter your Telegram Bot Token:
+            3.1	Please enter your Telegram Bot Token:
 
-3.2	Please enter the number of nodes you want to monitor:
+            3.2	Please enter the number of nodes you want to monitor:
 
-3.3	Please enter the name for node 1:
+            3.3	Please enter the name for node 1:
 
-3.4	Please enter the address for node 1:
+            3.4	Please enter the address for node 1:
 
-3.5	Please enter the name for node 2:
+            3.5	Please enter the name for node 2:
 
-3.6	Please enter the address for node 2:
+            3.6	Please enter the address for node 2:
 
-3.7	Wait until Etny Node Monitoring setup complete!
+            3.7	Wait until Etny Node Monitoring setup complete!
 
 If you encounter issues with the Etny Node Monitoring setup, you can try the following troubleshooting steps:
 
