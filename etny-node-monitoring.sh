@@ -5,8 +5,8 @@ source "$(dirname "$0")/config"
 
 # Log start time and duration of script
 start_time=$(date +%s)
-echo "###########################################################################" >> etny-node-monitoring.log
-echo "Script started at $(date '+%Y-%m-%d %H:%M:%S')" >> etny-node-monitoring.log
+echo "###########################################################################" >> /var/log/etny-node-monitoring.log
+echo "Script started at $(date '+%Y-%m-%d %H:%M:%S')" >> /var/log/etny-node-monitoring.log
 
 # Define output variable
 output=""
@@ -37,7 +37,7 @@ for address in "${nodes[@]}"; do
             curl -s -X POST "https://api.telegram.org/bot${bot_token}/sendMessage" \
                 -d "chat_id=${chat_id}" \
                 -d "text=${message}" >> /dev/null || { echo "Failed to send notification for ${name} (${address})" >&2; exit 1; }
-            echo "Notification sent: ${message}" >> etny-node-monitoring.log
+            echo "Notification sent: ${message}" >> /var/log/etny-node-monitoring.log
         fi
     }
 
@@ -48,5 +48,5 @@ done
 # Log end time and duration of script
 end_time=$(date +%s)
 duration=$((end_time - start_time))
-echo "Script ended at $(date '+%Y-%m-%d %H:%M:%S')" >> etny-node-monitoring.log
-echo "Duration time: ${duration} seconds" >> etny-node-monitoring.log
+echo "Script ended at $(date '+%Y-%m-%d %H:%M:%S')" >> /var/log/etny-node-monitoring.log
+echo "Duration time: ${duration} seconds" >> /var/log/etny-node-monitoring.log
