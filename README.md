@@ -22,7 +22,7 @@
 
 3.	Follow the instructions provided by the installer. This includes:
 
-            3.1	Please enter your Telegram Bot Token:
+            3.1	Please enter your Telegram Bot Token: (From step 1.5.)
 
             3.2	Please enter the number of nodes you want to monitor:
 
