@@ -2,9 +2,9 @@
 
 1.	Begin by cloning the repository.
 
-2.	Navigate to the cloned repository folder and start the installer by running the command 
+2.	Navigate to the cloned repository folder and start the installer by running the command:
 
-            "$ cd etny-node-monitoring && sudo chmod +x ./install.sh && sudo ./install.sh".
+            $ cd etny-node-monitoring && sudo chmod +x ./install.sh && sudo ./install.sh"
 
 3.	Follow the instructions provided by the installer. This includes:
 
