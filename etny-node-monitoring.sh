@@ -18,7 +18,7 @@ for address in "${nodes[@]}"; do
     address="$(echo "$address" | cut -d':' -f2)"
 
     # Get the last transaction from the address
-    last_transaction=$(curl -s "https://blockexplorer.bloxberg.org/api?module=account&action=txlist&address=${address}" | jq '.result[0]') || { echo "Failed to get last transaction for ${name} (${address})" >&2; exit 1; }
+    last_transaction=$(curl -s "https://blockexplorer.bloxberg.org/api?module=account&action=txlist&address=${address}" | jq '.result[0]') || { echo "Failed to get last transaction for ${name} (${address})" >&2; exit 1; } >> /var/log/etny-node-monitoring.log
 
     # Extract the timestamp from the last transaction
     last_transaction_timestamp=$(echo "${last_transaction}" | jq -r '.timeStamp')
