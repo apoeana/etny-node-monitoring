@@ -2,12 +2,12 @@
 
 1.	Begin by creting a Telegram Bot and cloning the repository:
 
-            1.1. Open Telegram and search for BotFather.
+            1.1. Open Telegram and search for @BotFather.
             1.2. Start a chat with BotFather by clicking on the "Start" button.
             1.3. Send the command "/newbot" to BotFather to create a new bot.
             1.4. Follow the instructions provided by BotFather to set a name and username for your bot.
             1.5. Once you have successfully created your bot, BotFather will provide you with an API token. Save this token as it will be required for the bot to function properly.
-            1.6. Open Telegram and search your BOT name
+            1.6. Open Telegram and search your @bot_name (replace it wiht your bot name)
             1.7. Click on the "Start" button to start interacting with the bot, it is mandatory to send a message to the bot.
 
 
