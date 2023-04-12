@@ -1,6 +1,9 @@
 # etny-node-monitoring for sending notifications to a Telegram Bot
 
-1.	Begin by cloning the repository.
+1.	Begin by creting a Telegram Bot and cloning the repository:
+
+            1.1. Open Telegram and search for BotFather.![image](https://user-images.githubusercontent.com/103731835/231458401-e506fd34-7a94-4dfd-833f-62bec7017eda.png)
+        
 
 2.	Navigate to the cloned repository folder and start the installer by running the command:
 
