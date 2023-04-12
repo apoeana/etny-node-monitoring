@@ -27,7 +27,7 @@ If you encounter issues with the Etny Node Monitoring setup, you can try the fol
 1.	Check if the information in the configuration file is correct by running the command "cat config" in your terminal. 
 
 2.	Check if the crontab service is running and if the script is added to it by running the following commands:
-
-2.1 $ sudo systemctl status cron.service
-      2.2	sudo crontab -l
+             
+             $ sudo systemctl status cron.service
+             $ sudo crontab -l
 
