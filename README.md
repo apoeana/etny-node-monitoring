@@ -1,4 +1,4 @@
-# etny-node-monitoring for sending notification to a Telegram Bot
+# etny-node-monitoring for sending notifications to a Telegram Bot
 
 1.	Begin by cloning the repository.
 
