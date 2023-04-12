@@ -9,7 +9,7 @@
             1.5. Once you have successfully created your bot, BotFather will provide you with an API token. Save this token as it will be required for the bot to function properly.
             1.6. Open Telegram and search your @bot_name (replace it wiht your bot name)
             1.7. Click on the "Start" button to start interacting with the bot, it is mandatory to send a message to the bot.
-            1.8.  Connect to your Ubuntu machine and clone the repository:
+            1.8. Connect to your Ubuntu machine and clone the repository:
                         
                         $ sudo apt-get update
                         $ sudo apt-get install git
