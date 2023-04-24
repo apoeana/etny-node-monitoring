@@ -32,7 +32,7 @@ for address in "${nodes[@]}"; do
 
     # If the last transaction was more than 12 hours ago, send a notification via Telegram
     function send_notification {
-        if [ "${time_diff}" -ge 12 ] && [ "${time_diff}" -le $((90*24)) ]; then
+        if [ "${time_diff}" -gt 12 ] && [ "${time_diff}" -le $((90*24)) ]; then
             message="Last contract call for ${name} (${address}): ${time_diff} hours ago"
             curl -s -X POST "https://api.telegram.org/bot${bot_token}/sendMessage" \
                 -d "chat_id=${chat_id}" \
