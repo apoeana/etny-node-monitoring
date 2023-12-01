@@ -144,7 +144,7 @@ function loading_bar {
 
     # Display the progress bar with 100% completion
     printf "\r[✓] etny-node-monitoring.sh completed successfully!          \n"
-    printf "For details check the log file: /var/log/etny-node-monitoring.log"           \n"
+    printf "For details check the log file: /var/log/etny-node-monitoring.log           \n"
 
 }
 
